@@ -3,7 +3,7 @@ function add(numb1, numb2) {
 }
 
 function multiply(num1, operator, num2) {
-  return num1, operator, num2;
+  return eval(`${num1} ${operator} ${num2}`);
 }
 
 function hasPets(hasPet, firstName, lastName) {
